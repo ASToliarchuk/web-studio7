@@ -1,0 +1,50 @@
+/* Наші особливості */
+.feature{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.feature-title{
+    color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.feature-list{
+    display: flex;
+}
+
+.feature-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background: rgba(245, 244, 250, 1);
+    border-radius: 4px;
+}
+
+.feature-list li{
+    width: 270px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.feature-text{
+    color: var(--secondary-text-color);
+
+    font-family: Roboto;
+    font-style: 400;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
